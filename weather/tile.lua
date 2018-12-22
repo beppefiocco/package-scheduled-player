@@ -191,6 +191,7 @@ local function forecast_7(starts, ends, config, x1, y1, x2, y2)
 
     local days = ({
         en = {"Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"},
+        it = {"Lun", "Mar", "Mer", "Gio", "Ven", "Sab", "Dom"},
         de = {"Mo",  "Di",  "Mi",  "Do",  "Fr",  "Sa",  "So"},
     })[config.locale or "en"]
 
