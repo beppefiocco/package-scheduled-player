@@ -23,6 +23,7 @@ var config = {
           <label class='field-label'>Locale</label><br/>
           <select class='btn btn-default' v-model="locale">
             <option value="en">English</option>
+            <option value="it">Italian</option>
             <option value="de">German</option>
           </select>
         </div>
